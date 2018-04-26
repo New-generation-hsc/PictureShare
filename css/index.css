@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+}
+
+.window {
+	width: 1260px;
+	margin: 8px 8px 0 16px;
+	border: 2px solid red;
+	border-radius: 8px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	-webkit-animation: zoom 500ms;
+}
+
+.window .header {
+	border-radius: 8px;
+	padding: 2px 9px 0;
+	line-height: 30px;
+	vertical-align: top;
+	background: #E8E8E8;
+}
+
+.window .header .title {
+  font: 11px "Myriad Pro", "Arial";
+}
+
+.window .header .title {
+  text-align: center;
+  display: inline-block;
+  width: 800px;
+  color: #766F79;
+  vertical-align: middle;
+  margin: 0 0 0 0;
+}
+
+.window .bullet {
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  background: #ccc;
+  border-radius: 100%;
+  vertical-align: middle;
+  margin: 10px 5px 12px 0;
+}
+
+.window .bullet-red {
+  background: #DF7065;
+}
+
+.window .bullet-yellow {
+  background: #E6BB46;
+}
+
+.window .bullet-green {
+  background: #5BCC8B;
+}
+
+.window .header .icon {
+	float: right;
+	margin: 7px 20px 7px 0;
+	width: 20px;
+	height: 20px;
+}
